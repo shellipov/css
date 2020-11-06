@@ -1,0 +1,20 @@
+.start_component{
+  height: 85vh;
+  .burger{
+    background-image: url('../../images/burder.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+    left: 50%;
+    top: 20%;
+
+  }
+  .scroll_button{
+    position: relative;
+    top:25rem;
+    left: 50%;
+  }
+}

@@ -1,0 +1,29 @@
+$orangeColor: #ff8300;
+
+
+.action_block{
+  display: flex;
+  justify-content: center;
+  height: 35vh;
+
+  .action{
+    height: 15rem;
+    width:  22rem;
+    border: 5px solid $orangeColor;
+    border-radius: .8rem;
+    margin: 1rem auto;
+    background: radial-gradient(white, #fff0e0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    .action_img{
+
+    }
+    .action_text{
+      position: relative;
+      bottom: 0px;
+      font-size: 1.3rem;
+    }
+  }
+}

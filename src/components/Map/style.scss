@@ -1,0 +1,34 @@
+$orangeColor: #ff8300;
+
+
+.map {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0 7rem;
+  .map_button_block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    button{
+      height: 3rem;
+      border-radius: .5rem;
+    }
+    .dixy_button{
+      background:$orangeColor;
+    }
+    .bk_button{
+      background:#cccccc;
+    }
+  }
+  .map_block {
+    height: 30rem;
+    width: 100%;
+    background: black;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+}

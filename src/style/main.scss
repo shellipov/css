@@ -1,0 +1,54 @@
+@import "reset";
+
+$orangeColor: #ff8300;
+
+
+@font-face {
+  font-family: "BlockProPlusCon";
+  src: url("./fonts/BlockProPlusCon.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("./fonts/ProximaNova-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  font-family: "ProximaNovaRegular";
+  background: rgba(0, 0, 0, 0.829);
+
+  .block-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1{
+    font-family: "BlockProPlusCon";
+    color: $orangeColor;
+    font-size: 5vh;
+    margin: 0 auto 
+  }
+  h2{
+    font-family: "ProximaNovaRegular";
+    color: $orangeColor;
+    font-size: 4vh;
+    margin: 0 auto 
+  }
+  h3{
+    font-family: "ProximaNovaRegular";
+    color: black;
+    font-size: 2vh;
+    margin: 0 auto 
+  }
+  span{
+    color: white;
+    font-size: 2vh;
+    margin: 1rem;
+  }
+
+}
