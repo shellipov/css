@@ -5,13 +5,9 @@ $orangeColor: #ff8300;
   background: white;
   padding: 1.5rem;
   border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 1rem 0 7rem;
   .map_button_block {
-    width: 100%;
-    display: flex;
+    margin: 1rem;
     justify-content: space-between;
     button{
       height: 3rem;
@@ -26,7 +22,6 @@ $orangeColor: #ff8300;
   }
   .map_block {
     height: 30rem;
-    width: 100%;
     background: black;
     border-radius: 1rem;
     margin: 1rem;

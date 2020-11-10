@@ -1,20 +1,13 @@
 .prize_block{
-  display: flex;
-  justify-content: center;
-  height: 45vh;
 
   .prize{
     background-image: url('./images/back.png');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 15rem;
-    width:  15rem;
     margin: 1.2rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 1rem;
+    border-radius: .5rem;
     .prize_img{
 
     }

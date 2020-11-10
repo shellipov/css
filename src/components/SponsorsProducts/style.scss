@@ -3,10 +3,7 @@ $orangeColor: #ff8300;
 .offer{
   background: rgba(255, 255, 255, 0.74);
   border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   margin:  1rem 0 ;
   padding: 1rem;
   .offer_block{
@@ -16,16 +13,13 @@ $orangeColor: #ff8300;
     padding: 2rem 1rem;
     margin:  1rem;
     .good{
-      margin: 1rem;
       display: block;
       .good_photo{
         background: rgb(143, 143, 143);
-        height: 9rem;
-        width: 9rem;
+
       }
       .good_name{
         text-align: center;
-        height: 4rem;
       }
     }
   }

@@ -1,4 +1,4 @@
-import Header from './components/Header';
+import Nav from './components/Nav';
 import StartComponent from './components/StartComponent';
 import TermsOfAction from './components/TermsOfAction';
 import Prizes from './components/Prizes';
@@ -10,7 +10,7 @@ import './style/main.scss';
 function App() {
   return (
     <>
-    <Header />
+    <Nav />
     <div className="container">
     <StartComponent />
     <TermsOfAction />

@@ -127,31 +127,50 @@ function SponsorsProducts() {
 
   return (
     <>
-      <div className="block-title">
-        <h1>ТОВАРЫ-СПОНСОРЫ</h1>
-        <span>за покупку которых ты можешь получить купон в «Бургер Кинг»</span>
-      </div>
-      {sponsorsGoods.map((offer) => {
-        return (
-          <div className="offer">
-            <h2>{offer.title}</h2>
-            <h3 >{offer.description}</h3>
-            <div className="offer_block">
-              {offer.goods.map((good) => {
-                return (
-                  <div className="good">
-                    <div className="good_photo">
-                      <img src={good.photo} alt={good.photo}></img>
-                    </div>
-                    <div className="good_name">{good.name}</div>
-                  </div>
-                );
-              })}
-            </div>
-            <button className='offer_button'>Все товары категории</button>
+      <section className="section">
+        <div className="row justify-content-center">
+          <div className="col-lg-auto">
+            <h1>ТОВАРЫ-СПОНСОРЫ</h1>
           </div>
-        );
-      })}
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-auto">
+            <span>
+              за покупку которых ты можешь получить купон в «Бургер Кинг»
+            </span>
+          </div>
+        </div>
+        {sponsorsGoods.map((offer) => {
+          return (
+            <div className="col offer">
+              <div className="row justify-content-center">
+                <h2 className="col-lg-auto">{offer.title}</h2>
+              </div>
+
+              <div className="row justify-content-center">
+                <h3 className="col-lg-auto">{offer.description}</h3>
+              </div>
+
+              <div className="offer_block row justify-content-space-around">
+                {offer.goods.map((good) => {
+                  return (
+                    <div className="good col-lg-2">
+                      <div className="good_photo">
+                        <img src={good.photo} alt={good.photo}></img>
+                      </div>
+                      <div className="good_name">{good.name}</div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              <div className="row justify-content-center">
+                <button className="offer_button">Все товары категории</button>
+              </div>
+            </div>
+          );
+        })}
+      </section>
     </>
   );
 }

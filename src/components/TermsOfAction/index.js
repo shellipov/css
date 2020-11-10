@@ -18,23 +18,19 @@ function TermsOfAction() {
 
         <div className="row justify-content-center">
           <div className="col-lg-4">
-            <div className="action justify-content-space-around ">
-              <div className="row">
-              <img className="action_img" src="https://" alt="img"></img>
-              </div>
-              <div className="row">
-              <div className="action_text">
+            <div className="action ">
+              <img className="row action_img" src="https://" alt="img"></img>
+              <div className="row action_text">
                 Покупай <a>товары-спонсоры</a>, участвующие в акции в магазинах
                 «ДИКСИ»
-              </div>
               </div>
             </div>
           </div>
 
           <div className="col-lg-4">
             <div className="action">
-              <img className="action_img" src="https://" alt="img"></img>
-              <div className="action_text">
+              <img className="row action_img" src="https://" alt="img"></img>
+              <div className="row action_text">
                 За каждый чек с товаром-спонсором ты{" "}
                 <b>получишь купон в «Бургер Кинг»</b>
               </div>
@@ -42,9 +38,9 @@ function TermsOfAction() {
           </div>
 
           <div className="col-lg-4">
-            <div className="action">
-              <img className="action_img" src="https://" alt="img"></img>
-              <div className="action_text">
+            <div className="action ">
+              <img className="row action_img" src="https://" alt="img"></img>
+              <div className="row action_text">
                 <b>Используй купон</b> при следующей покупке в «Бургер Кинг» от
                 350₽
               </div>
