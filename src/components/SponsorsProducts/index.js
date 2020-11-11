@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import img1 from './images/1.png';
+import img2 from './images/2.png';
+import img3 from './images/3.png';
+import img4 from './images/4.png';
+import img5 from './images/5.png';
+import img6 from './images/6.png';
 import "./style.scss";
 
 function SponsorsProducts() {
@@ -8,27 +14,27 @@ function SponsorsProducts() {
       description: "За 1 любой товар в чеке ты получишь 2 купона",
       goods: [
         {
-          photo: "img1",
+          photo: img1,
           name: "name1",
         },
         {
-          photo: "img2",
+          photo: img2,
           name: "name2",
         },
         {
-          photo: "img3",
+          photo: img3,
           name: "name3",
         },
         {
-          photo: "img4",
+          photo: img4,
           name: "name4",
         },
         {
-          photo: "img5",
+          photo: img5,
           name: "name5",
         },
         {
-          photo: "img6",
+          photo: img6,
           name: "name6",
         },
       ],
@@ -38,27 +44,27 @@ function SponsorsProducts() {
       description: "За 1 любой товар в чеке ты получишь 1 купон",
       goods: [
         {
-          photo: "img1",
+          photo: img1,
           name: "name1",
         },
         {
-          photo: "img2",
+          photo: img2,
           name: "name2",
         },
         {
-          photo: "img3",
+          photo: img3,
           name: "name3",
         },
         {
-          photo: "img4",
+          photo: img4,
           name: "name4",
         },
         {
-          photo: "img5",
+          photo: img5,
           name: "name5",
         },
         {
-          photo: "img6",
+          photo: img6,
           name: "name6",
         },
       ],
@@ -68,27 +74,27 @@ function SponsorsProducts() {
       description: "За 2 одинаковых товара в чеке ты получишь 1 купон",
       goods: [
         {
-          photo: "img1",
+          photo: img1,
           name: "name1",
         },
         {
-          photo: "img2",
+          photo: img2,
           name: "name2",
         },
         {
-          photo: "img3",
+          photo: img3,
           name: "name3",
         },
         {
-          photo: "img4",
+          photo: img4,
           name: "name4",
         },
         {
-          photo: "img5",
+          photo: img5,
           name: "name5",
         },
         {
-          photo: "img6",
+          photo: img6,
           name: "name6",
         },
       ],
@@ -98,27 +104,27 @@ function SponsorsProducts() {
       description: "За 4 одинаковых товара в чеке ты получишь 1 купон",
       goods: [
         {
-          photo: "img1",
+          photo: img1,
           name: "name1",
         },
         {
-          photo: "img2",
+          photo: img2,
           name: "name2",
         },
         {
-          photo: "img3",
+          photo: img3,
           name: "name3",
         },
         {
-          photo: "img4",
+          photo: img4,
           name: "name4",
         },
         {
-          photo: "img5",
+          photo: img5,
           name: "name5",
         },
         {
-          photo: "img6",
+          photo: img6,
           name: "name6",
         },
       ],

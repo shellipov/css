@@ -1,13 +1,29 @@
 import React from 'react';
+import textLogo from'./images/text.png';
+import burger from'./images/burger.png';
+
 import './style.scss'
 
 function StartComponent (){
   return(
     <>
-    <div className="start_component">
-      <div className="burger"></div>
-      <button className="scroll_button"></button>
+    <section className="start_component col-lg-auto align-items-center">
+    <div className="logo row justify-content-center align-items-end">
+      <div className="col-lg-6 align-items-center">
+        <div className="row justify-content-center">
+        <img src={textLogo} alt=""></img>
+        </div>
+      </div>
+      <div className="col-lg-6 align-items-center">
+      <div className="row justify-content-center">
+        <img src={burger} alt=""></img>
+      </div>
+      </div>
     </div>
+      <div className='row justify-content-center'>
+      <button className="scroll_button"></button>
+      </div>
+    </section>
     </>
   )
 }

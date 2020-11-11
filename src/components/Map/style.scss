@@ -12,6 +12,10 @@ $orangeColor: #ff8300;
     button{
       height: 3rem;
       border-radius: .5rem;
+      padding: 0 1rem 0;
+      .button_text{
+        margin: 0 0 0 .5rem;
+      }
     }
     .dixy_button{
       background:$orangeColor;
@@ -22,7 +26,10 @@ $orangeColor: #ff8300;
   }
   .map_block {
     height: 30rem;
-    background: black;
+    background-image: url('./images/map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 1rem;
     margin: 1rem;
   }

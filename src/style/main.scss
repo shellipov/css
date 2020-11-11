@@ -16,12 +16,19 @@ $orangeColor: #ff8300;
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("./fonts/ProximaNova-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 body{
   font-family: "ProximaNovaRegular";
   background: rgba(0, 0, 0, 0.829);
   background-image: url('../images/back.png');
+  background-position: top center;
 
 
   .block-title{
