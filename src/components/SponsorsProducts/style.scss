@@ -17,6 +17,9 @@ $orangeColor: #ff8300;
       .good_photo{
         background: #f9f6f2;
         border-radius: .5rem;
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
       }
       .good_name{
         text-align: center;

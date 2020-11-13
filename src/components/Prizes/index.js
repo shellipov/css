@@ -27,32 +27,39 @@ function Prizes() {
 
         <div className=" prize_block row justify-content-center">
           <div className="col-lg-3">
-            <div className="prize ">
-              <img className="prize_img" src={free} alt="img"></img>
+            <div className="prize row justify-content-center">
+              <div className="col-lg-auto">
+                <div className="row justify-content-center">
+              {/* <img className="prize_img" src={free} alt="img"></img> */}
               <img className="prize_img" src={img1} alt="img"></img>
+                </div>
+                <div className="row justify-content-center">
               <div className="prize_text">НАГГЕТСЫ JR.</div>
+                </div>
+              </div>
             </div>
+            <div></div>
           </div>
 
           <div className="col-lg-3">
-            <div className="prize">
-              <img className="prize_img" src={free} alt="img"></img>
+            <div className="prize row justify-content-flex-end ">
+              {/* <img className="prize_img" src={free} alt="img"></img> */}
               <img className="prize_img" src={img2} alt="img"></img>
               <div className="prize_text">КАРТОШКА ФРИ JR.</div>
             </div>
           </div>
 
           <div className="col-lg-3">
-            <div className="prize">
-              <img className="prize_img" src={free} alt="img"></img>
+            <div className="prize row justify-content-flex-end">
+              {/* <img className="prize_img" src={free} alt="img"></img> */}
               <img className="prize_img" src={img3} alt="img"></img>
               <div className="prize_text">ЧИЗБУРГЕР</div>
             </div>
           </div>
 
           <div className="col-lg-3">
-            <div className="prize">
-              <img className="prize_img" src={sale} alt="img"></img>
+            <div className="prize row justify-content-flex-end">
+              {/* <img className="prize_img" src={sale} alt="img"></img> */}
               <img className="prize_img" src={img4} alt="img"></img>
               <div className="prize_text">ДЖУНИОР КОМБО</div>
             </div>

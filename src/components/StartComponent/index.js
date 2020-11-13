@@ -7,14 +7,14 @@ import './style.scss'
 function StartComponent (){
   return(
     <>
-    <section className="start_component col-lg-auto align-items-center">
+    <section className="start_component">
     <div className="logo row justify-content-center align-items-end">
-      <div className="col-lg-6 align-items-center">
+      <div className="col-lg-6">
         <div className="row justify-content-center">
         <img src={textLogo} alt=""></img>
         </div>
       </div>
-      <div className="col-lg-6 align-items-center">
+      <div className="col-lg-6">
       <div className="row justify-content-center">
         <img src={burger} alt=""></img>
       </div>
